@@ -1,0 +1,906 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, div, span, a, p, button {
+    font-family: 'Pretendard-Regular', sans-serif;
+}
+
+/* 웹폰트 */
+
+
+body {
+    background-color: rgba(239, 237, 229, 1);
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%; 
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto; 
+    background-color: rgba(225, 212, 196, 1);
+}
+
+.menuBar {
+    background-color: rgba(181, 164, 160, 1); 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menuBarLogo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#mainBox {
+    width: 100%;
+    max-width: 1920px;
+    height: 1080px;
+    background-color: rgba(225, 212, 196, 1);
+    margin: 0 auto;
+}
+
+
+#main {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    color: white;
+    width: 80%;
+    height: 80%;
+    background-image: url('img/MAIN_OVERLAY.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main h1 {
+    font-size: 80px;
+    margin-bottom: 20px; 
+}
+
+#main p {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+#main img {
+    width: 280px;
+    height: auto;
+}
+
+.Warning {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 490px;
+    right: 180px; 
+     z-index: 2;
+    transform: none;
+}
+
+.Warning2 {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 320px;
+    left: 100px; 
+    transform: none;
+}
+
+.Warning3 {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 400px; 
+    transform: none;
+}
+
+.Warning3_2 {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    top: 420px;
+    right: 100px; 
+    z-index: 1;
+    transform: none;
+}
+
+.Warning4 {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    top: 550px;
+    left: 380px; 
+    transform: none;
+}
+
+.Warning5 {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 200px; 
+    transform: none;
+}
+
+
+.Pixels {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    position: absolute;
+    top: 800px;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#bookBox-Background {
+    width: 100%; 
+    max-width: 1920px;
+    height: 1900px;
+    background-color: rgba(239, 237, 229, 1);
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 중앙 정렬 */
+}
+
+#bookBox {
+    width: 100%; 
+    max-width: 1420px;
+    height: 80px;
+    background-color: rgba(181, 164, 160, 1);
+    margin: 0; /* 위쪽 여백 조정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookBox p {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bookBox2 {
+    width: 100%; 
+    max-width: 1420px;
+    height: 700px;
+    background-color: rgba(253, 252, 247, 1);
+    margin: 0 auto; /* 위쪽 여백 조정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookBox3 {
+    width: 100%;
+    max-width: 1110px;
+    height: 550px;
+    background-color: rgba(204, 193, 187, 1);
+    margin: 0 auto; /* 위쪽 여백 조정 */
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: center;
+}
+
+.book {
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+
+#bookBox3 p {
+    line-height: 1.5; /* 행간 조정 */
+    font-size: 21px;
+    color: rgba(62, 45, 45, 1);
+    text-align: justify;
+    margin: 0;
+    padding: 10px; 
+    position: relative; /* 상대 위치로 조정 */
+    top: -30px; 
+    left: -120px;
+}
+
+
+.Pixels2 {
+    width: 100%;
+    max-width: 1300px;
+    height: 867px;
+    position: absolute;
+    top: 2480px;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#authorBox {
+    width: 100%;
+    max-width: 1920px;
+    height: 1080px;
+    background-color: rgba(225, 212, 196, 1);
+    margin: 200px auto;
+    position: relative;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+#authorBox h1 {
+    font-size: 90px;
+    text-align: left;
+    color: rgba(106, 95, 93, 1);
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    line-height: 1; /* 줄 간격 설정 */
+}
+
+#authorBox p {
+    font-size: 30px;
+    text-align: left;
+    color: rgba(106, 95, 93, 1);
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    left: 420px;
+    top: 180px;
+    line-height: 1; /* 줄 간격 설정 */
+}
+
+#authorBox p2 {
+    font-size: 34px;
+    text-align: left;
+    color: rgba(106, 95, 93, 1);
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    left: 160px;
+    top: 270px;
+    line-height: 1; /* 줄 간격 설정 */
+}
+
+#careerBox {
+    width: calc(100% - 160px); 
+    max-width: 700px;
+    height: 60px;
+    background-color: rgba(180, 162, 158, 1);
+    margin: 368px 0 0 160px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#careerBox p {
+    font-size: 30px; /* 글자 크기 */
+    color: white; /* 글자 색상 */
+    text-align: left; /* 텍스트 정렬 */
+    line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+    top: 0;
+    left: 15px;
+    margin: 0; /* 기본 여백 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+#careerBox p2 {
+    line-height: 1.4;
+    font-size: 27px; /* 글자 크기 */
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: normal;
+    top: 80px;
+    left: 15px;
+    margin: 0; /* 기본 여백 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+#workBox {
+    width: calc(100% - 160px); 
+    max-width: 700px;
+    height: 60px;
+    background-color: rgba(180, 162, 158, 1);
+    margin: 200px 0 0 160px; 
+    box-sizing: border-box;
+    position: relative;
+}
+
+#workBox p {
+    font-size: 30px; /* 글자 크기 */
+    color: white; /* 글자 색상 */
+    text-align: left; /* 텍스트 정렬 */
+    line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+    top: 0;
+    left: 15px;
+    margin: 0; /* 기본 여백 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+#workBox p2 {
+    line-height: 1.4;
+    font-size: 27px; /* 글자 크기 */
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: normal;
+    top: 80px;
+    left: 15px;
+    margin: 0; /* 기본 여백 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+
+#pictureBox {
+    width: 500px;
+    height: 60px;
+    background-color: rgba(180, 162, 158, 1);
+    position: absolute;
+    top: 190px;
+    right: 160px;
+}
+
+#pictureBox2 {
+    width: 500px;
+    height: 700px;
+    background-image: url('img/KimChoyeop.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 250px;
+    right: 160px;
+}
+
+.Memory {
+    width: 1280px;
+    height: auto;
+    position: absolute;
+    top: 4700px;
+    right: 0;
+    left: auto; /* left는 자동으로 설정 */
+    transform: none;
+}
+
+#MemoryBox {
+    width: 650px;
+    height: 100px;
+    background-color: rgba(180, 162, 158, 1);
+    position: absolute;
+    top: 4900px;
+    left: 160px;
+}
+
+#MemoryBox h1 {
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    line-height: 100px; /* 박스 높이에 맞게 중앙 정렬 */
+    font-weight: bold;
+    top: 0;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+#MemoryBox2 {
+    width: 1150px;
+    height: 290px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(245, 244, 240, 0.7) 100%);
+    position: absolute;
+    top: 5050px;
+    left: 160px;
+}
+
+#MemoryBox2 h1 {
+    font-size: 35px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: bold;
+    top: 30px;
+    left: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+#MemoryBox2 p {
+    line-height: 1.4;
+    font-size: 28px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: normal;
+    top: 60px;
+    left: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+.Ego {
+    width: 1280px;
+    height: auto;
+    position: absolute;
+    top: 6000px;
+    left: 0;
+    right: auto;
+    transform: none;
+}
+
+#EgoBox {
+    width: 540px;
+    height: 100px;
+    background-color: rgba(180, 162, 158, 1);
+    position: absolute;
+    top: 6200px;
+    right: 160px;
+}
+
+#EgoBox h1 {
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    line-height: 100px; /* 박스 높이에 맞게 중앙 정렬 */
+    font-weight: bold;
+    top: 0;
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+
+#EgoBox2 {
+    width: 1150px;
+    height: 290px;
+    background: linear-gradient(to right, rgba(245, 244, 240, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 6350px;
+    right: 160px;
+}
+
+#EgoBox2 h1 {
+    font-size: 35px;
+    color: rgba(106, 95, 93, 1);
+    text-align: right;
+    font-weight: bold;
+    top: 30px;
+    right: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+#EgoBox2 p {
+    line-height: 1.4;
+    font-size: 28px;
+    color: rgba(106, 95, 93, 1);
+    text-align: right;
+    font-weight: normal;
+    top: 60px;
+    right: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대 위치 지정 */
+}
+
+.jiminBbox {
+    position: absolute;   /* 절대 위치로 설정 */
+    top: 7500px;
+    left: 160px; 
+    width: 1420px; 
+    height: 800px;
+    z-index: 0;
+    display: flex;  /* 이미지와 텍스트를 가로로 배치하기 위해 flex 사용 */
+}
+
+.jimin {
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-7deg);
+    z-index: 1;
+}
+
+.jimin2 {
+    width: 500px;
+    height: 643px;
+    position: absolute;
+    top: -250px;
+    left: 160px;
+    transform: rotate(+7deg);
+}
+
+.jiminText {
+    position: absolute;
+    top: 0;
+    left: 860px; /* jimin 이미지를 기준으로 오른쪽에 위치 */
+    max-width: 500px;  /* 텍스트 영역의 최대 너비 설정 */
+    z-index: 2;  /* 이미지 위에 배치 */
+    color: rgba(106, 95, 93, 1)
+}
+
+.jiminText h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 10px;
+}
+
+.jiminText p {
+    line-height: 1.4;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+}
+
+.eunhaBbox {
+    position: absolute;   /* 부모 박스를 절대 위치로 설정 */
+    top: 8700px;          /* 시작 위치를 지정 */
+    right: 280px;         /* 오른쪽에서 시작 */
+    width: 1420px;         /* 첫 번째 이미지의 너비 */
+    height: 800px;        /* 첫 번째 이미지의 높이 */
+    z-index: 0;           /* 이미지보다 아래에 배치 */
+}
+
+.eunha {
+    width: 600px;
+    height: 800px;
+    position: absolute;   /* 부모 .eunhaBbox를 기준으로 배치 */
+    top: 0;               /* 부모의 상단에 위치 */
+    right: 160px;              /* 부모의 왼쪽에 위치 */
+    transform: rotate(+7deg); /* 첫 번째 이미지는 회전 */
+}
+
+.eunha2 {
+    width: 500px;
+    height: 643px;
+    position: absolute;
+    top: 350px;
+    right: 0;
+    transform: rotate(-7deg);
+    z-index: 1;
+}
+
+.Warning6 {
+    width: 587px;
+    height: 360px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 2;
+}
+
+.Warning7 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 750px;
+    right: 520px;
+    z-index: 2;
+}
+
+.eunhaText {
+    position: absolute;
+    top: 0;
+    right: 800px;
+    max-width: 500px;
+    z-index: 2;  /* 이미지 위에 배치 */
+    color: rgba(106, 95, 93, 1)
+}
+
+.eunhaText h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 10px;
+}
+
+.eunhaText p {
+    line-height: 1.4;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
+}
+
+.Pixels3 {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    position: absolute;
+    top: 9680px;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#underBox {
+    z-index: -1;
+    width: 100%;
+    max-width: 1920px;
+    height: 6000px;
+    background-color: rgba(230, 220, 211, 1);
+    margin: 0 auto;
+    position: absolute;
+    top: 10210px;
+}
+
+.invisible {
+    width: 1190px;
+    height: auto;
+    position: absolute;
+    top: 300px; 
+    left: 0;
+    z-index: 2;
+}
+
+#invisibleBox {
+    width: 900px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(182, 164, 160, 1);
+    top: 450px;
+    right: 160px;
+    z-index: 3;
+}
+
+#invisibleBox h1 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    line-height: 100px; /* 박스 높이에 맞춰서 가운데 정렬 */
+    font-weight: bold;
+    top: 0;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative; /* 상대적인 위치 */
+}
+
+#invisibleBox2 {
+    width: 900px;
+    height: 260px;
+    position: absolute;
+    background-color: rgba(245, 244, 240, 0.8);
+    top: 550px;
+    right: 160px;
+    z-index: 3;
+}
+
+#invisibleBox2 h1 {
+    line-height: 1.4;
+    font-size: 34px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: bold;
+    top: 40px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#invisibleBox2 p {
+    line-height: 1.4;
+    font-size: 28px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: normal;
+    top: 70px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.space {
+    width: 1190px;
+    height: auto;
+    position: absolute;
+    top: 1200px; 
+    right: 0;
+    z-index: 2;
+}
+
+#spaceBox {
+    width: 900px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(182, 164, 160, 1);
+    top: 1350px;
+    left: 160px;
+    z-index: 3;
+}
+
+#spaceBox h1 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    line-height: 100px; /* 박스 높이에 맞춰서 가운데 정렬 */
+    font-weight: bold;
+    top: 0;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#spaceBox2 {
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(245, 244, 240, 0.8);
+    top: 1450px;
+    left: 160px;
+    z-index: 3;
+}
+
+#spaceBox2 h1 {
+    line-height: 1.4;
+    font-size: 34px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: bold;
+    top: 40px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#spaceBox2 p {
+    line-height: 1.4;
+    font-size: 28px;
+    color: rgba(106, 95, 93, 1);
+    text-align: left;
+    font-weight: normal;
+    top: 70px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.gradient-box {
+    position: absolute; /* 절대 위치로 설정 */
+    top: 2450px; /* 상단에 위치 */
+    left: 0; /* 좌측에 위치 */
+    width: 100%; /* 너비를 100%로 설정 */
+    height: 500px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(230, 220, 211, 1) 100%); /* 그라데이션 색상 설정 */
+    z-index: 1; /* 비디오 위에 배치 */
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 1200px;
+    overflow: hidden;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 70%;
+    left: 0; 
+    transform: translateY(-50%);
+    z-index: 0; 
+}
+
+
+#underBox > h1 {
+    z-index: 3;
+    font-size: 90px;
+    color: rgba(114, 88, 88, 1);
+    text-align: center;
+    font-weight: bold;
+    top: 2500px;
+    left: 0 ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#underBox > h2 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    top: 2500px;
+    left: 0 ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#underBox > p {
+    line-height: 1.4;
+    font-size: 35px;
+    color: rgba(114, 88, 88, 1);
+    text-align: center;
+    font-weight: normal;
+    top: 2600px;
+    left: 0 ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#underBox > h3 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    top: 4000px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.books {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+
+footer {
+    color: rgba(117, 114, 114, 1);
+    text-align: center;
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; 
+}
+
+/* 모바일 */
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgba(239, 237, 229, 1);
+        font-size: 14px;
+    }
+
+    .menuBar {
+        flex-direction: column; /* 메뉴를 세로로 정렬 */
+        height: auto;
+    }
+
+    .menuBarLogo a {
+        font-size: 20px;
+    }
+
+}
