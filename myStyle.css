@@ -32,10 +32,10 @@ body {
 
 .menuBar {
     background-color: rgba(181, 164, 160, 1); 
-    height: 60px;
+    height: 3vw;
     display: flex;
     align-items: center;
-    padding: 0 20px; 
+    padding: 0 2%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -47,7 +47,7 @@ body {
 .menuBarLogo a {
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
@@ -79,84 +79,78 @@ body {
 }
 
 #main h1 {
-    font-size: 80px;
-    margin-bottom: 20px; 
-}
-
-#main p {
-    font-size: 30px;
-    margin: 0;
-    color: white;
+    font-size: 6vw;
+    margin-bottom: 2vh; 
 }
 
 #main img {
-    width: 280px;
+    width: 20vw;
     height: auto;
 }
 
 .Warning {
-    width: 400px;
+    width: 25vw;
     height: auto;
     position: absolute;
-    top: 490px;
-    right: 180px; 
+    top: 55vh;
+    right: 10%; 
      z-index: 2;
     transform: none;
 }
 
 .Warning2 {
-    width: 500px;
+    width: 30vw;
     height: auto;
     position: absolute;
-    top: 320px;
-    left: 100px; 
+    top: 40vh;
+    left: 5%; 
     transform: none;
 }
 
 .Warning3 {
-    width: 270px;
+    width: 15vw;
     height: auto;
     position: absolute;
-    top: 80px;
-    left: 400px; 
+    top: 10vh;
+    left: 30%; 
     transform: none;
 }
 
 .Warning3_2 {
-    width: 270px;
+    width: 15vw;
     height: auto;
     position: absolute;
-    top: 420px;
-    right: 100px; 
+    top: 47vh;
+    right: 5%; 
     z-index: 1;
     transform: none;
 }
 
 .Warning4 {
-    width: 270px;
+    width: 15vw;
     height: auto;
     position: absolute;
-    top: 550px;
-    left: 380px; 
+    top: 60vh;
+    left: 24%; 
     transform: none;
 }
 
 .Warning5 {
-    width: 350px;
+    width: 20vw;
     height: auto;
     position: absolute;
-    top: 50px;
-    right: 200px; 
+    top: 5vh;
+    right: 20%; 
     transform: none;
 }
 
 
 .Pixels {
     width: 100%;
-    max-width: 1300px;
+    max-width: 80%;
     height: auto;
     position: absolute;
-    top: 800px;
+    top: 80vh;
     left: 30%;
     transform: translateX(-50%);
     z-index: 1;
@@ -164,8 +158,8 @@ body {
 
 #bookBox-Background {
     width: 100%; 
-    max-width: 1920px;
-    height: 1900px;
+    max-width: 100%;
+    height: 210vh;
     background-color: rgba(239, 237, 229, 1);
     display: flex;
     flex-direction: column; /* 세로 방향으로 정렬 */
@@ -175,8 +169,8 @@ body {
 
 #bookBox {
     width: 100%; 
-    max-width: 1420px;
-    height: 80px;
+    max-width: 90%;
+    height: 4vw;
     background-color: rgba(181, 164, 160, 1);
     margin: 0; /* 위쪽 여백 조정 */
     display: flex;
@@ -185,7 +179,7 @@ body {
 }
 
 #bookBox p {
-    font-size: 40px;
+    font-size: 2.2vw;
     margin: 0;
     color: white;
     font-weight: bold;
@@ -194,8 +188,8 @@ body {
 
 #bookBox2 {
     width: 100%; 
-    max-width: 1420px;
-    height: 700px;
+    max-width: 90%;
+    height: 40vw;
     background-color: rgba(253, 252, 247, 1);
     margin: 0 auto; /* 위쪽 여백 조정 */
     display: flex;
@@ -205,8 +199,8 @@ body {
 
 #bookBox3 {
     width: 100%;
-    max-width: 1110px;
-    height: 550px;
+    max-width: 80%;
+    height: 30vw;
     background-color: rgba(204, 193, 187, 1);
     margin: 0 auto; /* 위쪽 여백 조정 */
     display: flex;
@@ -215,30 +209,32 @@ body {
 }
 
 #bookBox3 img {
-    width: 600px;
+    width: 100%;
+    max-width: 50%;
+    height: 30vw;
     height: auto;
     position: relative;
 }
 
 #bookBox3 p {
     line-height: 1.5; /* 행간 조정 */
-    font-size: 21px;
+    font-size: 1.5vw;
     color: rgba(62, 45, 45, 1);
     text-align: justify;
     margin: 0;
     padding: 10px; 
     position: relative; /* 상대 위치로 조정 */
-    top: -30px; 
-    left: -120px;
+    top: -1vw; 
+    left: -10%;
 }
 
 
 .Pixels2 {
     width: 100%;
-    max-width: 1300px;
-    height: 867px;
+    max-width: 90%;
+    height: auto;
     position: absolute;
-    top: 2480px;
+    top: 280vh;
     left: 30%;
     transform: translateX(-50%);
     z-index: 1;
@@ -247,185 +243,186 @@ body {
 #authorBox {
     width: 100%;
     max-width: 1920px;
-    height: 1080px;
+    height: 120vh;
     background-color: rgba(225, 212, 196, 1);
-    margin: 200px auto;
+    margin: 20vh auto;
     position: relative;
     padding-top: 1px;
     overflow: hidden;
 }
 
 #authorBox h1 {
-    font-size: 90px;
+    font-size: 5vw; /* vw로 폰트 크기 설정 */
     text-align: left;
     color: rgba(106, 95, 93, 1);
     font-weight: bold;
     margin: 0;
     position: absolute;
-    left: 160px;
-    top: 120px;
+    left: 9%; /* %로 위치 설정 */
+    bottom: 82%; /* %로 위치 설정 */
     line-height: 1; /* 줄 간격 설정 */
 }
 
 #authorBox p {
-    font-size: 30px;
+    font-size: 2vw; /* vw로 폰트 크기 설정 */
     text-align: left;
     color: rgba(106, 95, 93, 1);
     font-weight: bold;
     margin: 0;
     position: absolute;
-    left: 420px;
-    top: 180px;
+    left: 25%; /* %로 위치 설정 */
+    bottom: 82%; /* %로 위치 설정 */
     line-height: 1; /* 줄 간격 설정 */
 }
 
 #authorBox p2 {
-    font-size: 34px;
+    font-size: 2vw; /* vw로 폰트 크기 설정 */
     text-align: left;
     color: rgba(106, 95, 93, 1);
     font-weight: bold;
     margin: 0;
     position: absolute;
-    left: 160px;
-    top: 270px;
+    left: 9%; /* %로 위치 설정 */
+    top: 25%; /* %로 위치 설정 */
     line-height: 1; /* 줄 간격 설정 */
 }
 
 #careerBox {
-    width: calc(100% - 160px); 
-    max-width: 700px;
-    height: 60px;
+    width: calc(100% - 20vw); 
+    max-width: 42vw;
+    height: 3vw;
     background-color: rgba(180, 162, 158, 1);
-    margin: 368px 0 0 160px;
+    margin: 40vh 0 0 9%;
     box-sizing: border-box;
     position: relative;
 }
 
 #careerBox p {
-    font-size: 30px; /* 글자 크기 */
+    font-size: 1.7vw; /* 글자 크기 */
     color: white; /* 글자 색상 */
     text-align: left; /* 텍스트 정렬 */
-    line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+    line-height: 3vw; /* 박스 높이에 맞게 중앙 정렬 */
     top: 0;
-    left: 15px;
+    left: 3%;
     margin: 0; /* 기본 여백 제거 */
     padding: 0; /* 기본 패딩 제거 */
 }
 
 #careerBox p2 {
     line-height: 1.4;
-    font-size: 27px; /* 글자 크기 */
+    font-size: 1.7vw; /* 글자 크기 */
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: normal;
     top: 80px;
-    left: 15px;
+    left: 3%;
     margin: 0; /* 기본 여백 제거 */
     padding: 0; /* 기본 패딩 제거 */
 }
 
 #workBox {
-    width: calc(100% - 160px); 
-    max-width: 700px;
-    height: 60px;
+    width: calc(100% - 20vw);
+    max-width: 42vw;
+    height: 3vw;
     background-color: rgba(180, 162, 158, 1);
-    margin: 200px 0 0 160px; 
+    margin: 20vh 0 0 9%; 
     box-sizing: border-box;
     position: relative;
 }
 
 #workBox p {
-    font-size: 30px; /* 글자 크기 */
+    font-size: 1.7vw; /* 글자 크기 */
     color: white; /* 글자 색상 */
     text-align: left; /* 텍스트 정렬 */
-    line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+    line-height: 3vw; /* 박스 높이에 맞게 중앙 정렬 */
     top: 0;
-    left: 15px;
+    left: 3%;
     margin: 0; /* 기본 여백 제거 */
     padding: 0; /* 기본 패딩 제거 */
 }
 
 #workBox p2 {
     line-height: 1.4;
-    font-size: 27px; /* 글자 크기 */
+    font-size: 1.7vw; /* 글자 크기 */
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: normal;
-    top: 80px;
-    left: 15px;
+    top: 10vh;
+    left: 3%;
     margin: 0; /* 기본 여백 제거 */
     padding: 0; /* 기본 패딩 제거 */
 }
 
 
 #pictureBox {
-    width: 500px;
-    height: 60px;
+    width: 30vw;
+    height: 3vw;
     background-color: rgba(180, 162, 158, 1);
     position: absolute;
-    top: 190px;
-    right: 160px;
+    top: 22vh;
+    right: 10%;
 }
 
 #pictureBox2 {
-    width: 500px;
-    height: 700px;
+    width: 30vw;
+    height: 40vw;
     background-image: url('img/KimChoyeop.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 250px;
-    right: 160px;
+    top: 28vh;
+    right: 10%;
 }
 
-.Memory {
-    width: 1280px;
+.Memory img {
+    width: 100%;
+    max-width: 70vw;
     height: auto;
     position: absolute;
-    top: 4700px;
+    top: 530vh;
     right: 0;
     left: auto; /* left는 자동으로 설정 */
     transform: none;
 }
 
 #MemoryBox {
-    width: 650px;
-    height: 100px;
+    width: 38vw;
+    height: 6vw;
     background-color: rgba(180, 162, 158, 1);
     position: absolute;
-    top: 4900px;
-    left: 160px;
+    top: 550vh;
+    left: 15%;
 }
 
 #MemoryBox h1 {
-    font-size: 45px;
+    font-size: 2.6vw;
     color: white;
     text-align: left;
-    line-height: 100px; /* 박스 높이에 맞게 중앙 정렬 */
+    line-height: 6vw; /* 박스 높이에 맞게 중앙 정렬 */
     font-weight: bold;
     top: 0;
-    left: 30px;
+    left: 5%;
     margin: 0;
     padding: 0;
     position: relative; /* 상대 위치 지정 */
 }
 
 #MemoryBox2 {
-    width: 1150px;
-    height: 290px;
+    width: 65vw;
+    height: 15vw;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(245, 244, 240, 0.7) 100%);
     position: absolute;
-    top: 5050px;
-    left: 160px;
+    top: 570vh;
+    left: 15%;
 }
 
 #MemoryBox2 h1 {
-    font-size: 35px;
+    font-size: 2vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: bold;
-    top: 30px;
-    left: 90px;
+    top: 4vh;
+    left: 5%;
     margin: 0;
     padding: 0;
     position: relative; /* 상대 위치 지정 */
@@ -433,44 +430,45 @@ body {
 
 #MemoryBox2 p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.5vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: normal;
-    top: 60px;
-    left: 90px;
+    top: 7vh;
+    left: 5%;
     margin: 0;
     padding: 0;
     position: relative; /* 상대 위치 지정 */
 }
 
-.Ego {
-    width: 1280px;
+.Ego img {
+    width: 100%;
+    max-width: 70vw;
     height: auto;
     position: absolute;
-    top: 6000px;
+    top: 680vh;
     left: 0;
     right: auto;
     transform: none;
 }
 
 #EgoBox {
-    width: 540px;
-    height: 100px;
+    width: 31vw;
+    height: 6vw;
     background-color: rgba(180, 162, 158, 1);
     position: absolute;
-    top: 6200px;
-    right: 160px;
+    top: 700vh;
+    right: 10%;
 }
 
 #EgoBox h1 {
-    font-size: 45px;
+    font-size: 2.6vw;
     color: white;
     text-align: right;
-    line-height: 100px; /* 박스 높이에 맞게 중앙 정렬 */
+    line-height: 6vw; /* 박스 높이에 맞게 중앙 정렬 */
     font-weight: bold;
     top: 0;
-    right: 30px;
+    right: 5%;
     margin: 0;
     padding: 0;
     position: relative; /* 상대 위치 지정 */
@@ -478,16 +476,16 @@ body {
 
 
 #EgoBox2 {
-    width: 1150px;
-    height: 290px;
+    width: 70vw;
+    height: 15vw;
     background: linear-gradient(to right, rgba(245, 244, 240, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
     position: absolute;
-    top: 6350px;
-    right: 160px;
+    top: 720vh;
+    right: 5%;
 }
 
 #EgoBox2 h1 {
-    font-size: 35px;
+    font-size: 2vw;
     color: rgba(106, 95, 93, 1);
     text-align: right;
     font-weight: bold;
@@ -500,7 +498,7 @@ body {
 
 #EgoBox2 p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.5vw;
     color: rgba(106, 95, 93, 1);
     text-align: right;
     font-weight: normal;
@@ -513,17 +511,18 @@ body {
 
 .jiminBbox {
     position: absolute;   /* 절대 위치로 설정 */
-    top: 7500px;
-    left: 160px; 
-    width: 1420px; 
-    height: 800px;
+    top: 830vh;
+    left: 15%; 
+    width: 80%; 
+    height: auto;
     z-index: 0;
     display: flex;  /* 이미지와 텍스트를 가로로 배치하기 위해 flex 사용 */
+    
 }
 
-.jimin {
-    width: 600px;
-    height: 800px;
+.jimin img {
+    width: 40vw;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -531,111 +530,110 @@ body {
     z-index: 1;
 }
 
-.jimin2 {
-    width: 500px;
-    height: 643px;
+.jimin2 img {
+    width: 35vw;
+    height: auto;
     position: absolute;
-    top: -250px;
-    left: 160px;
+    top: -15vw;
+    left: 15%;
     transform: rotate(+7deg);
 }
 
 .jiminText {
     position: absolute;
     top: 0;
-    left: 860px; /* jimin 이미지를 기준으로 오른쪽에 위치 */
-    max-width: 500px;  /* 텍스트 영역의 최대 너비 설정 */
+    left: 70%; /* jimin 이미지를 기준으로 오른쪽에 위치 */
+    max-width: 50vw;  /* 텍스트 영역의 최대 너비 설정 */
     z-index: 2;  /* 이미지 위에 배치 */
     color: rgba(106, 95, 93, 1)
 }
 
 .jiminText h1 {
-    font-size: 60px;
+    font-size: 4vw;
     margin: 0;
     padding: 10px;
 }
 
 .jiminText p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.6vw;
     margin: 0;
     padding: 10px;
 }
 
 .eunhaBbox {
     position: absolute;   /* 부모 박스를 절대 위치로 설정 */
-    top: 8700px;          /* 시작 위치를 지정 */
-    right: 280px;         /* 오른쪽에서 시작 */
-    width: 1420px;         /* 첫 번째 이미지의 너비 */
-    height: 800px;        /* 첫 번째 이미지의 높이 */
+    top: 980vh;          /* 시작 위치를 지정 */
+    right: 15%;         /* 오른쪽에서 시작 */
+    width: 80%;         /* 첫 번째 이미지의 너비 */
+    height: auto;        /* 첫 번째 이미지의 높이 */
     z-index: 0;           /* 이미지보다 아래에 배치 */
 }
 
-.eunha {
-    width: 600px;
-    height: 800px;
+.eunha img {
+    width: 40vw;
+    height: auto;
     position: absolute;   /* 부모 .eunhaBbox를 기준으로 배치 */
     top: 0;               /* 부모의 상단에 위치 */
-    right: 160px;              /* 부모의 왼쪽에 위치 */
+    right: 8%;              /* 부모의 왼쪽에 위치 */
     transform: rotate(+7deg); /* 첫 번째 이미지는 회전 */
 }
 
-.eunha2 {
-    width: 500px;
-    height: 643px;
+.eunha2 img {
+    width: 35vw;
+    height: auto;
     position: absolute;
-    top: 350px;
+    top: 30vh;
     right: 0;
     transform: rotate(-7deg);
-    z-index: 1;
 }
 
-.Warning6 {
-    width: 587px;
-    height: 360px;
+.Warning6 img {
+    width: 30vw;
+    height: auto;
     position: absolute;
-    top: 100px;
+    top: 10vh;
     right: 0;
     z-index: 2;
 }
 
-.Warning7 {
-    width: 300px;
-    height: 200px;
+.Warning7 img {
+    width: 20vw;
+    height: auto;
     position: absolute;
-    top: 750px;
-    right: 520px;
+    top: 90vh;
+    right: 35%;
     z-index: 2;
 }
 
 .eunhaText {
     position: absolute;
     top: 0;
-    right: 800px;
-    max-width: 500px;
+    right: 65%;
+    max-width: 50vw;
     z-index: 2;  /* 이미지 위에 배치 */
     color: rgba(106, 95, 93, 1)
 }
 
 .eunhaText h1 {
-    font-size: 60px;
+    font-size: 4vw;
     margin: 0;
     padding: 10px;
 }
 
 .eunhaText p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.6vw;
     margin: 0;
     padding: 10px;
 }
 
 .Pixels3 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 90%;
     height: auto;
     position: absolute;
-    top: 9680px;
+    top: 1100vh;
     left: 30%;
     transform: translateX(-50%);
     z-index: 1;
@@ -645,63 +643,63 @@ body {
     z-index: -1;
     width: 100%;
     max-width: 1920px;
-    height: 6000px;
+    height: 600vh;
     background-color: rgba(230, 220, 211, 1);
     margin: 0 auto;
     position: absolute;
-    top: 10210px;
+    top: 1150vh;
 }
 
-.invisible {
-    width: 1190px;
+.invisible img {
+    width: 80%;
     height: auto;
     position: absolute;
-    top: 300px; 
+    top: 32vh; 
     left: 0;
     z-index: 2;
 }
 
 #invisibleBox {
-    width: 900px;
-    height: 100px;
+    width: 50vw;
+    height: 10vh;
     position: absolute;
     background-color: rgba(182, 164, 160, 1);
-    top: 450px;
-    right: 160px;
+    top: 50vh;
+    right: 10%;
     z-index: 3;
 }
 
 #invisibleBox h1 {
-    font-size: 40px;
+    font-size: 2.4vw;
     color: white;
     text-align: left;
-    line-height: 100px; /* 박스 높이에 맞춰서 가운데 정렬 */
+    line-height: 10vh; /* 박스 높이에 맞춰서 가운데 정렬 */
     font-weight: bold;
     top: 0;
-    left: 30px;
+    left: 2vw;
     margin: 0;
     padding: 0;
     position: relative; /* 상대적인 위치 */
 }
 
 #invisibleBox2 {
-    width: 900px;
-    height: 260px;
+    width: 50vw;
+    height: 28vh;
     position: absolute;
     background-color: rgba(245, 244, 240, 0.8);
-    top: 550px;
-    right: 160px;
+    top: 60vh;
+    right: 10%;
     z-index: 3;
 }
 
 #invisibleBox2 h1 {
     line-height: 1.4;
-    font-size: 34px;
+    font-size: 2vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: bold;
-    top: 40px;
-    left: 80px;
+    top: 5vh;
+    left: 10%;
     margin: 0;
     padding: 0;
     position: relative;
@@ -709,62 +707,62 @@ body {
 
 #invisibleBox2 p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.6vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: normal;
-    top: 70px;
-    left: 80px;
+    top: 8vh;
+    left: 10%;
     margin: 0;
     padding: 0;
     position: relative;
 }
 
-.space {
-    width: 1190px;
+.space img {
+    width: 80%;
     height: auto;
     position: absolute;
-    top: 1200px; 
+    top: 135vh; 
     right: 0;
     z-index: 2;
 }
 
 #spaceBox {
-    width: 900px;
-    height: 100px;
+    width: 55vw;
+    height: 10vh;
     position: absolute;
     background-color: rgba(182, 164, 160, 1);
-    top: 1350px;
-    left: 160px;
+    top: 155vh;
+    left: 10%;
     z-index: 3;
 }
 
 #spaceBox h1 {
-    font-size: 40px;
+    font-size: 2.4vw;
     color: white;
     text-align: left;
-    line-height: 100px; /* 박스 높이에 맞춰서 가운데 정렬 */
+    line-height: 10vh; /* 박스 높이에 맞춰서 가운데 정렬 */
     font-weight: bold;
     top: 0;
-    left: 30px;
+    left: 2vw;
     margin: 0;
     padding: 0;
     position: relative;
 }
 
 #spaceBox2 {
-    width: 900px;
-    height: 300px;
+    width: 55vw;
+    height: 32vh;
     position: absolute;
     background-color: rgba(245, 244, 240, 0.8);
-    top: 1450px;
-    left: 160px;
+    top: 165vh;
+    left: 10%;
     z-index: 3;
 }
 
 #spaceBox2 h1 {
     line-height: 1.4;
-    font-size: 34px;
+    font-size: 2vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: bold;
@@ -777,7 +775,7 @@ body {
 
 #spaceBox2 p {
     line-height: 1.4;
-    font-size: 28px;
+    font-size: 1.6vw;
     color: rgba(106, 95, 93, 1);
     text-align: left;
     font-weight: normal;
@@ -790,10 +788,10 @@ body {
 
 .gradient-box {
     position: absolute; /* 절대 위치로 설정 */
-    top: 2450px; /* 상단에 위치 */
+    top: 260vh; /* 상단에 위치 */
     left: 0; /* 좌측에 위치 */
     width: 100%; /* 너비를 100%로 설정 */
-    height: 500px;
+    height: 50vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(230, 220, 211, 1) 100%); /* 그라데이션 색상 설정 */
     z-index: 1; /* 비디오 위에 배치 */
 }
@@ -802,7 +800,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    margin-top: 1200px;
+    margin-top: 100vh;
     overflow: hidden;
 }
 
@@ -821,11 +819,11 @@ video {
 
 #underBox > h1 {
     z-index: 3;
-    font-size: 90px;
+    font-size: 5.5vw;
     color: rgba(114, 88, 88, 1);
     text-align: center;
     font-weight: bold;
-    top: 2500px;
+    top: 280vh;
     left: 0 ;
     margin: 0;
     padding: 0;
@@ -833,11 +831,11 @@ video {
 }
 
 #underBox > h2 {
-    font-size: 80px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     font-weight: bold;
-    top: 2500px;
+    top: 280vh;
     left: 0 ;
     margin: 0;
     padding: 0;
@@ -846,11 +844,11 @@ video {
 
 #underBox > p {
     line-height: 1.4;
-    font-size: 35px;
+    font-size: 2vw;
     color: rgba(114, 88, 88, 1);
     text-align: center;
     font-weight: normal;
-    top: 2600px;
+    top: 290vh;
     left: 0 ;
     margin: 0;
     padding: 0;
@@ -858,11 +856,11 @@ video {
 }
 
 #underBox > h3 {
-    font-size: 60px;
+    font-size: 2.4vw;
     color: white;
     text-align: center;
     font-weight: bold;
-    top: 4000px;
+    top: 390vh;
     margin: 0;
     padding: 0;
     position: relative;
@@ -875,15 +873,15 @@ video {
     transform: translate(-50%, -50%); 
     z-index: 2;
 }
-
 footer {
     color: rgba(117, 114, 114, 1);
     text-align: center;
-    padding: 20px 0; 
+    padding: 2vh 0;
     position: relative;
     bottom: 0;
     width: 100%;
     z-index: 1; 
+    font-size: 0.8vw;
 }
 
 /* 모바일 */
@@ -909,66 +907,60 @@ footer {
     }
 
     .menuBarLogo a {
-        font-size: 20px;
+        font-size: 2vw;
     }
 
 
     #main h1 {
-        font-size: 60px;
+        font-size: 5vw;
         margin-bottom: 10px;
     }
 
-    #main p {
-        font-size: 18px;
-        margin: 0;
-        color: white;
-    }
-
     #main img {
-        width: 200px;
+        width: 18vw;
         height: auto;
     }
 
     .Warning {
-        width: 200px;
-        top: 450px;
-        right: 50px;
+        width: 28vw;
+        top: 50vh;
+        right: 10%;
     }
 
     .Warning2 {
-        width: 250px;
-        top: 550px;
-        left: 50px;
+        width: 30vw;
+        top: 50vh;
+        left: 7%;
     }
 
     .Warning3 {
-        width: 150px;
-        top: 100px;
-        left: 200px;
+        width: 20vw;
+        top: 10vh;
+        left: 15%;
     }
 
     .Warning3_2 {
-        width: 150px;
-        top: 400px;
-        right: 30px;
+        width: 20vw;
+        top: 45vh;
+        right: 7%;
     }
 
     .Warning4 {
-        width: 150px;
-        top: 650px;
-        left: 180px;
+        width: 20vw;
+        top: 60vh;
+        left: 25%;
     }
 
     .Warning5 {
-        width: 200px;
-        top: 50px;
-        right: 100px;
+        width: 25vw;
+        top: 7vh;
+        right: 10%;
     }
 
     .Pixels {
         width: 100%;
         max-width: 768px;
-        top: 600px;
+        top: 60vh;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -1015,7 +1007,7 @@ footer {
     }
     
     #bookBox3 {
-        width: 100%;
+        width: 80%;
         max-width: 450px;
         height: 400px;
         background-color: rgba(204, 193, 187, 1);
@@ -1026,21 +1018,21 @@ footer {
     }
     
     #bookBox3 img {
-        width: 300px;
+        width: 30vw;
         height: auto;
         position: relative;
     }
     
     #bookBox3 p {
         line-height: 1.5; /* 행간 조정 */
-        font-size: 12px;
+        font-size: 2vw;
         color: rgba(62, 45, 45, 1);
         text-align: justify;
         margin: 0;
         padding: 10px; 
         position: relative; /* 상대 위치로 조정 */
-        top: -10px; 
-        left: -50px;
+        top: -1vh; 
+        left: -5%;
     }
     
     
@@ -1058,9 +1050,9 @@ footer {
     #authorBox {
         width: 100%;
         max-width: 768px;
-        height: 800px;
+        height: 85vh;
         background-color: rgba(225, 212, 196, 1);
-        margin: 200px auto;
+        margin: 20vw auto;
         position: relative;
         padding-top: 1px;
         overflow: hidden;
@@ -1073,7 +1065,7 @@ footer {
         font-weight: bold;
         margin: 0;
         position: absolute;
-        left: 60px;
+        left: 10%;
         top: 70px;
         line-height: 1; /* 줄 간격 설정 */
     }
@@ -1103,7 +1095,7 @@ footer {
     }
     
     #careerBox {   
-        max-width: 250px;
+        max-width: 40vw;
         height: 40px;
         background-color: rgba(180, 162, 158, 1);
         margin: 290px 0 0 60px;
@@ -1124,7 +1116,7 @@ footer {
     
     #careerBox p2 {
         line-height: 1.4;
-        font-size: 15px; /* 글자 크기 */
+        font-size: 2.7vw; /* 글자 크기 */
         color: rgba(106, 95, 93, 1);
         text-align: left;
         font-weight: normal;
@@ -1135,7 +1127,7 @@ footer {
     }
     
     #workBox {
-        max-width: 250px;
+        max-width: 40vw;
         height: 40px;
         background-color: rgba(180, 162, 158, 1);
         margin: 150px 0 0 60px; 
@@ -1156,7 +1148,7 @@ footer {
     
     #workBox p2 {
         line-height: 1.4;
-        font-size: 15px; /* 글자 크기 */
+        font-size: 2.7vw; /* 글자 크기 */
         color: rgba(106, 95, 93, 1);
         text-align: left;
         font-weight: normal;
@@ -1168,22 +1160,22 @@ footer {
     
     
     #pictureBox {
-        width: 300px;
-        height: 40px;
+        width: 30vw;
+        height: 10vh;
         background-color: rgba(180, 162, 158, 1);
         position: absolute;
-        top: 220px;
+        top: 26vh;
         right: 60px;
     }
     
     #pictureBox2 {
-        width: 300px;
-        height: 500px;
+        width: 30vw;
+        height: 50vh;
         background-image: url('img/KimChoyeop.jpg');
         background-size: cover;
         background-position: center;
         position: absolute;
-        top: 260px;
+        top: 30vh;
         right: 60px;
     }
 
@@ -1191,26 +1183,26 @@ footer {
         width: 768px;
         height: auto;
         position: absolute;
-        top: 0;
+        top: 5000px;
         right: 0;
         left: auto; /* left는 자동으로 설정 */
         transform: none;
     }
     
     #MemoryBox {
-        width: 440px;
-        height: 60px;
+        width: 58vw;
+        height: 6vh;
         background-color: rgba(180, 162, 158, 1);
         position: absolute;
-        top: 5300px;
+        top: 5400px;
         left: 60px;
     }
     
     #MemoryBox h1 {
-        font-size: 30px;
+        font-size: 4vw;
         color: white;
         text-align: left;
-        line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+        line-height: 6vh; /* 박스 높이에 맞게 중앙 정렬 */
         font-weight: bold;
         top: 0;
         left: 20px;
@@ -1220,16 +1212,16 @@ footer {
     }
     
     #MemoryBox2 {
-        width: 600px;
-        height: 300px;
+        width: 80vw;
+        height: 30vh;
         background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
         position: absolute;
-        top: 5400px;
+        top: 5460px;
         left: 20px;
     }
     
     #MemoryBox2 h1 {
-        font-size: 24px;
+        font-size: 3vw;
         color: rgba(106, 95, 93, 1);
         text-align: left;
         font-weight: bold;
@@ -1242,7 +1234,7 @@ footer {
     
     #MemoryBox2 p {
         line-height: 1.4;
-        font-size: 16px;
+        font-size: 2.2vw;
         color: rgba(106, 95, 93, 1);
         text-align: left;
         font-weight: normal;
@@ -1257,15 +1249,15 @@ footer {
         width: 768px;
         height: auto;
         position: absolute;
-        top: 0;
+        top: 6200px;
         left: 0;
         right: auto;
         transform: none;
     }
     
     #EgoBox {
-        width: 430px;
-        height: 60px;
+        width: 50vw;
+        height: 7vh;
         background-color: rgba(180, 162, 158, 1);
         position: absolute;
         top: 6600px;
@@ -1273,10 +1265,10 @@ footer {
     }
     
     #EgoBox h1 {
-        font-size: 35px;
+        font-size: 4vw;
         color: white;
         text-align: right;
-        line-height: 60px; /* 박스 높이에 맞게 중앙 정렬 */
+        line-height: 7vh; /* 박스 높이에 맞게 중앙 정렬 */
         font-weight: bold;
         top: 0;
         right: 30px;
@@ -1287,8 +1279,8 @@ footer {
     
     
     #EgoBox2 {
-        width: 1150px;
-        height: 290px;
+        width: 100vw;
+        height: 40vh;
         background: linear-gradient(to right, rgba(245, 244, 240, 0) 0%, rgba(255, 255, 255, 0) 100%);
         position: absolute;
         top: 6700px;
@@ -1296,7 +1288,7 @@ footer {
     }
     
     #EgoBox2 h1 {
-        font-size: 24px;
+        font-size: 3vw;
         color: rgba(106, 95, 93, 1);
         text-align: right;
         font-weight: bold;
@@ -1309,7 +1301,7 @@ footer {
     
     #EgoBox2 p {
         line-height: 1.4;
-        font-size: 16px;
+        font-size: 2.2vw;
         color: rgba(106, 95, 93, 1);
         text-align: right;
         font-weight: normal;
@@ -1331,7 +1323,7 @@ footer {
     }
     
     .jimin img {
-        width: 280px;
+        width: 40vw;
         height: auto;
         position: absolute;
         top: 0;
@@ -1341,7 +1333,7 @@ footer {
     }
     
     .jimin2 img {
-        width: 190px;
+        width: 35vw;
         height: auto;
         position: absolute;
         top: 200px;
@@ -1352,21 +1344,21 @@ footer {
     .jiminText {
         position: absolute;
         top: 0;
-        left: 400px; /* jimin 이미지를 기준으로 오른쪽에 위치 */
-        max-width: 240px;  /* 텍스트 영역의 최대 너비 설정 */
+        left: 35%; /* jimin 이미지를 기준으로 오른쪽에 위치 */
+        max-width: 30vw;  /* 텍스트 영역의 최대 너비 설정 */
         z-index: 2;  /* 이미지 위에 배치 */
         color: rgba(106, 95, 93, 1)
     }
     
     .jiminText h1 {
-        font-size: 40px;
+        font-size: 4vw;
         margin: 0;
         padding: 10px;
     }
     
     .jiminText p {
         line-height: 1.4;
-        font-size: 17px;
+        font-size: 2vw;
         margin: 0;
         padding: 10px;
     }
@@ -1381,7 +1373,7 @@ footer {
     }
     
     .eunha img {
-        width: 280px;
+        width: 40vw;
         height: auto;
         position: absolute;   /* 부모 .eunhaBbox를 기준으로 배치 */
         top: 0;               /* 부모의 상단에 위치 */
@@ -1390,20 +1382,19 @@ footer {
     }
     
     .eunha2 img {
-        width: 190px;
+        width: 35vw;
         height: auto;
         position: absolute;
         top: -150px;
         right: 60px;
         transform: rotate(-7deg);
-        z-index: 1;
     }
     
     .Warning6 img {
-        width: 300px;
+        width: 30vw;
         height: auto;
         position: absolute;
-        top: -50px;
+        top: -80px;
         right: 60px;
         z-index: 2;
     }
@@ -1420,21 +1411,21 @@ footer {
     .eunhaText {
         position: absolute;
         top: 0;
-        right: 450px;
+        right: 30%;
         max-width: 240px;
         z-index: 2;  /* 이미지 위에 배치 */
         color: rgba(106, 95, 93, 1)
     }
     
     .eunhaText h1 {
-        font-size: 40px;
+        font-size: 4vw;
         margin: 0;
         padding: 10px;
     }
     
     .eunhaText p {
         line-height: 1.4;
-        font-size: 17px;
+        font-size: 2vw;
         margin: 0;
         padding: 10px;
     }
@@ -1462,21 +1453,21 @@ footer {
     }
     
     .invisible img {
-        width: 650px;
+        width: 80%;
         height: auto;
         position: absolute;
-        top: 0; 
+        top: 50vw; 
         left: 0;
         z-index: 2;
     }
     
     #invisibleBox {
-        width: 600px;
+        width: 60vw;
         height: 0px;
         position: absolute;
-        background-color: rgba(182, 164, 160, 1);
+        background-color: rgb(62, 43, 39);
         top: 700px;
-        right: 160px;
+        right: 10%;
         z-index: 3;
     }
     
@@ -1530,26 +1521,26 @@ footer {
     }
     
     .space img {
-        width: 650px;
+        width: 80%;
         height: auto;
         position: absolute;
-        top: 0; 
+        top: 220vw; 
         right: 0;
         z-index: 2;
     }
     
     #spaceBox {
-        width: 600px;
+        width: 200vx;
         height: 0px;
         position: absolute;
         background-color: rgba(230, 220, 211, 1);
         top: 1350px;
-        right: 160px;
+        right: 30%;
         z-index: 3;
     }
     
     #spaceBox h1 {
-        font-size: 32px;
+        font-size: 6vw;
         color: rgba(114, 88, 88, 1);
         text-align: right;
         line-height: 60px; /* 박스 높이에 맞춰서 가운데 정렬 */
@@ -1599,7 +1590,7 @@ footer {
     
     .gradient-box {
         position: absolute; /* 절대 위치로 설정 */
-        top: 2400px; /* 상단에 위치 */
+        top: 2550px; /* 상단에 위치 */
         left: 0; /* 좌측에 위치 */
         width: 100%; /* 너비를 100%로 설정 */
         height: 500px;
@@ -1630,7 +1621,7 @@ footer {
     
     #underBox > h1 {
         z-index: 3;
-        font-size: 60px;
+        font-size: 8vw;
         color: rgba(114, 88, 88, 1);
         text-align: center;
         font-weight: bold;
@@ -1642,7 +1633,7 @@ footer {
     }
     
     #underBox > h2 {
-        font-size: 50px;
+        font-size: 7vw;
         color: white;
         text-align: center;
         font-weight: bold;
@@ -1655,7 +1646,7 @@ footer {
     
     #underBox > p {
         line-height: 1.4;
-        font-size: 20px;
+        font-size: 3vw;
         color: rgba(114, 88, 88, 1);
         text-align: center;
         font-weight: normal;
@@ -1667,7 +1658,7 @@ footer {
     }
     
     #underBox > h3 {
-        font-size: 34px;
+        font-size: 4vw;
         color: white;
         text-align: center;
         font-weight: bold;
@@ -1696,4 +1687,5 @@ footer {
         z-index: 1; 
     }
 }
+
 
